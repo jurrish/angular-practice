@@ -3,15 +3,12 @@
   <head>
     <meta charset="utf-8">
     <title></title>
-    <!-- <script src="js/app.js"></script> -->
-    <script>
-    'use strict';
-    console.log('angular', angular);
-    angular.module('demoApp', []);
-    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
+    <script src="app.js"></script>
   </head>
   <body ng-app='demoApp'>
     <input type="text" ng-model="username">
     <p> this is what you typed: {{username}} </p>
+    <yoda-speak></yoda-speak>
   </body>
 </html>
